@@ -4,6 +4,7 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
+    "install_default": "node ./node_modules/@u4/opencv4nodejs/bin/install.js rebuild",
     "start": "ts-node src/index.ts",
     "build": "npm run lint && rm -rf ./dist && tsc && cd ../client-angular && npm run build",
     "lint": "tslint -p .",
