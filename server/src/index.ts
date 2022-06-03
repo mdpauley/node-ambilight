@@ -1,6 +1,6 @@
+import * as cv from '@u4/opencv4nodejs';
 import bodyParser from 'body-parser';
 import express from 'express';
-import cv from 'opencv4nodejs';
 import { join } from 'path';
 import { BehaviorSubject, EMPTY } from 'rxjs';
 import { bufferTime, delay, first, map, retryWhen, switchMap, tap, withLatestFrom } from 'rxjs/operators';
