@@ -39,5 +39,12 @@
     "rxjs": "^6.5.4",
     "tslib": "^1.11.0",
     "ws": "^7.2.1"
+  },
+  "opencv4nodejs": {
+    "disableAutoBuild": 1,
+    "opencvIncludeDir": "/usr/local/include/opencv4",
+    "opencvLibDir": "/usr/local/lib",
+    "opencvBinDir": "/usr/local/bin",
+    "opencvBuildRoot": "/Projects/opencv4nodejs_build"
   }
 }
