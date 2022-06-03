@@ -1,4 +1,5 @@
-import cv, { Vec3 } from 'opencv4nodejs';
+import * as cv from '@u4/opencv4nodejs';
+import { Vec3 } from '@u4/opencv4nodejs';
 import { OperatorFunction } from 'rxjs';
 import { map, publish, refCount, tap, withLatestFrom } from 'rxjs/operators';
 
